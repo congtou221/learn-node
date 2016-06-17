@@ -1,0 +1,25 @@
+{
+  "name": "learn-node",
+  "version": "1.0.0",
+  "description": "my first step to node :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/congtou221/learn-node.git"
+  },
+  "author": "sixiaohui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/congtou221/learn-node/issues"
+  },
+  "homepage": "https://github.com/congtou221/learn-node#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "express": "^4.14.0",
+    "superagent": "^2.0.0",
+    "utility": "^1.8.0"
+  }
+}
