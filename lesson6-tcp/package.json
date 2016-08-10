@@ -1,0 +1,12 @@
+{
+  "name": "tcp-chat",
+  "version": "1.0.0",
+  "description": "Our first TCP server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
