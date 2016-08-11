@@ -1,0 +1,10 @@
+<h1>Search result for <%= search %></h1>
+<% if (result.ret){ %>
+	<ul>
+	<% for(var item in result.ret){ %>
+		<li><%= item %>: <%= result.ret[item]%></li>
+	<% }%>
+	</ul>
+<% } else { %>
+	<p>No result!</p>
+<% } %>
